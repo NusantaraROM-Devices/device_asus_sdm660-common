@@ -192,9 +192,6 @@ ro.vendor.sensors.facing=false
 # Shutdown time
 sys.vendor.shutdown.waittime=500
 
-# Skia
-renderthread.skia.reduceopstasksplitting=true
-
 # Set system properties identifying the chipset
 ro.soc.manufacturer=QTI
 ro.soc.model=SDM660
