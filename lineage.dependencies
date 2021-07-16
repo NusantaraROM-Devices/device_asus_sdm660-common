@@ -2,5 +2,11 @@
   {
     "repository":  "android_kernel_asus_sdm660",
     "target_path": "kernel/asus/sdm660"
+  },
+  {
+    "repository": "Gaurav241/packages_apps_GoogleCamera",
+    "target_path": "packages/apps/GoogleCam",
+    "branch": "twelve",
+    "remote": "github"
   }
 ]
