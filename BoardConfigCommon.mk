@@ -193,11 +193,12 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
-
-BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy-minimal
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 SELINUX_IGNORE_NEVERALLOWS := true
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
 # Treble
 BOARD_VNDK_VERSION := current
