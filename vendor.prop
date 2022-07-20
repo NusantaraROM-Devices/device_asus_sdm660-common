@@ -95,6 +95,8 @@ debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
 # Display
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sf.hw=1
 persist.hwc.mdpcomp.enable=true
 ro.hardware.egl=adreno
@@ -104,6 +106,7 @@ vendor.display.disable_rotator_downscale=1
 vendor.display.disable_scaler=0
 debug.hwui.use_buffer_age=false
 debug.sf.recomputecrop=0
+renderthread.skia.reduceopstasksplitting=true
 
 # DPM
 persist.vendor.dpm.loglevel=0
