@@ -136,6 +136,7 @@ persist.vendor.data.iwlan.enable=true
 ro.telephony.iwlan_operation_mode=legacy
 
 # Graphics
+debug.sf.enable_gl_backpressure=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 vendor.gralloc.disable_ahardware_buffer=1
