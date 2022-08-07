@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# GoogleCameraGo
-$(call inherit-product, packages/apps/GoogleCam/gcam.mk)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
@@ -95,6 +93,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
     vendor.qti.hardware.camera.device@1.0
+
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V3
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \

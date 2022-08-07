@@ -8,4 +8,4 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_display.git -b arrow-
 git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-12.0-caf-msm8998 hardware/qcom-caf/msm8998/media
 
 #GCamGo
-git clone https://github.com/Gaurav241/packages_apps_GoogleCamera.git -b twelve packages/apps/GoogleCam
+git clone https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt.git -b arrow-12.1 packages/apps/GCamGOPrebuilt
