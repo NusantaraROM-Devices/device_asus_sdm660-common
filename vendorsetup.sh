@@ -7,5 +7,5 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12
 git clone https://github.com/ArrowOS/android_hardware_qcom_display.git -b arrow-12.0-caf-msm8998 hardware/qcom-caf/msm8998/display
 git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-12.0-caf-msm8998 hardware/qcom-caf/msm8998/media
 
-#GCamGo
-git clone https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt.git -b arrow-12.1 packages/apps/GCamGOPrebuilt
+#ANXCamera
+git clone https://gitlab.com/Joker-V2/android_vendor_ANXCamera.git -b twelve vendor/ANXCamera
